@@ -45,7 +45,7 @@ v <- c(v,5) # adiciona 5 a v
 
 v <- c(1, 2, 3, NA, 6)
 is.na(v) # retorna um vetor de true e false indicando onde possui NA
-mean(v, na.rm=TRUE) # calcula a média dos elementos tirando o NA
+mean(v) # calcula a média dos elementos tirando o NA
 
 # Normalização
 a <- c(5, 3, 7, 5, 5, 3, 4)
