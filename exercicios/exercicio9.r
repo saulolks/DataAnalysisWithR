@@ -3,7 +3,7 @@ install.packages("tidyr")
 library(dplyr)
 library(tidyr)
 
-# questão 1
+# quest?o 1
 df = data.frame(Theoph)
 str(df)
 
@@ -19,8 +19,8 @@ df%>%arrange(Wt,desc(Time))
 df%>%summarize(tendencia=Time-mean(Time))
 df%>%summarize(max(conc))
 
-# questão 2
-setwd("C:/Users/saulo/git/DataAnalysisWithR/exercicios")
+# quest?o 2
+setwd("/home/saulo/git/DataAnalysisWithR/exercicios")
 getwd()
 
 df1 = read.csv("673598238_T_ONTIME_REPORTING.csv", quote="\"", sep=",")
@@ -32,8 +32,9 @@ str(df2)
 View(df1)
 View(df2)
 
-# questão 3
+# quest?o 3
 TB = read.csv("http://stat405.had.co.nz/data/tb.csv")
 View(TB)
 
 df <- TB %>% gather(key = "Informacao", value = "valor", -iso2, -year)
+View(df)
