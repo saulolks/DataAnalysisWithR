@@ -52,10 +52,6 @@ barplot(sorted_terms[1:30], las=3, col=rainbow(10))
 ```{r include=F}
 library(twitteR)
 
-consumer_key = "9h8Dw0nErYmNEozFhQU15QmMu"
-consumer_secret = "1PZp4CQLIjFQ5cLltYGizDFzta9EpVP6l1IkTQflDP9Qdkv8bm"
-access_token = "925588118123753472-64eFMkLmXw5gdV9ZW3bxH032SNfbh2M"
-access_secret = "B0Gv5nnII4VTgm9X4vsFTt6NxLJjLFTLa1BGgjcTBjNqu"
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 ```
 
